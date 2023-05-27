@@ -11,13 +11,19 @@ Development of streamlit dashboard for Pose-Estimation
 
 # Steps to run Code
  ## If you are using google colab then you will first need to mount the drive with mentioned command first, (Windows or Linux users) both can skip this step.
-``` from google.colab import drive
-drive.mount("/content/drive") ```
+``` 
+from google.colab import drive
+drive.mount("/content/drive")
+```
  ## Clone the repository.
  git clone https://github.com/RizwanMunawar/yolov7-pose-estimation.git
+
  ## Goto the cloned folder.
- ``` cd yolov7-pose-estimation```
-Create a virtual envirnoment (Recommended, If you dont want to disturb python packages)
+ ```
+ cd yolov7-pose-estimation
+ ```
+- Create a virtual envirnoment (Recommended, If you dont want to disturb python packages)
+```
 ### For Linux Users
 python3 -m venv psestenv
 source psestenv/bin/activate
@@ -29,10 +35,18 @@ cd Scripts
 activate
 cd ..
 cd ..
-Upgrade pip with mentioned command below.
+```
+
+## Upgrade pip with mentioned command below.
+```
 pip install --upgrade pip
-Install requirements with mentioned command below.
+```
+
+## Install requirements with mentioned command below.
+```
 pip install -r requirements.txt
+```
+
 Download yolov7 pose estimation weights from link and move them to the working directory {yolov7-pose-estimation}
 
 Run the code with mentioned command below.

@@ -18,7 +18,7 @@ drive.mount("/content/drive")
  ## Clone the repository.
  git clone https://github.com/RizwanMunawar/yolov7-pose-estimation.git
 
- ## Goto the cloned folder.
+ ## Go to the cloned folder.
  ```
  cd yolov7-pose-estimation
  ```

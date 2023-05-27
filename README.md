@@ -48,7 +48,7 @@ Development of streamlit dashboard for Pose-Estimation
  pip install -r requirements.txt
  ```
 
- ### Download yolov7 pose estimation weights from link and move them to the working directory {yolov7-pose-estimation}
+ ### Download yolov7 pose estimation weights from [link](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-w6-pose.pt) and move them to the working directory {yolov7-pose-estimation}
 
  ### Run the code with mentioned command below.
 
@@ -59,22 +59,21 @@ Development of streamlit dashboard for Pose-Estimation
  #if you want to change source file
  python pose-estimate.py --source "your custom video.mp4"
 
- #For CPU
+ #For CPU (defualt 'cpu')
  python pose-estimate.py --source "your custom video.mp4" --device cpu
 
- #For GPU
+ #For GPU (0,1,2,3 - device arguments of gpus)
  python pose-estimate.py --source "your custom video.mp4" --device 0
 
- #For View-Image
- python pose-estimate.py --source "your custom video.mp4" --device 0 --view-img
-
  #For LiveStream (Ip Stream URL Format i.e "rtsp://username:pass@ipaddress:portno/video/video.amp")
- python pose-estimate.py --source "your IP Camera Stream URL" --device 0 --view-img
+ python pose-estimate.py --source "your IP Camera Stream URL" --device 0
 
  #For WebCam
- python pose-estimate.py --source 0 --view-img
+ python pose-estimate.py --source 0
 
  #For External Camera
- python pose-estimate.py --source 1 --view-img
- Output file will be created in the working directory with name ["your-file-name-without-extension"+"_keypoint.mp4"]
+ python pose-estimate.py --source 1
  ```
+ 
+ - Output file will be created in the working directory with name ["your-file-name-without-extension"+"_keypoint.mp4"]
+ 

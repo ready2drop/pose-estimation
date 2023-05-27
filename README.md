@@ -1,4 +1,4 @@
-# yolov7_pose_estimation   :two_men_holding_hands:
+# yolov7_pose   :two_men_holding_hands:
 
 
 
@@ -21,7 +21,7 @@
 
  ### Go to the cloned folder.
  ```
- cd yolov7-pose-estimation
+ cd yolov7_pose
  ```
  ### Create a virtual envirnoment (Recommended, If you dont want to disturb python packages)
  ```

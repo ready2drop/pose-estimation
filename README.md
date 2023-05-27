@@ -1,4 +1,6 @@
-# yolov7_pose
+# yolov7_pose_estimation 
+
+
 
 # New Features
  - Added Support for Comparision of (FPS & Time) Graph
@@ -75,8 +77,16 @@ Development of streamlit dashboard for Pose-Estimation
  python pose-estimate.py --source 1
  ```
  
-### Output file will be created in the working directory with name ["your-file-name-without-extension"+"_keypoint.mp4"]
+*** Output file will be created in the working directory with name ["your-file-name-without-extension"+"_keypoint.mp4"] ***
+
+# Result
+|football|Dance|Snowboard|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
 
 # Reference
 - https://github.com/WongKinYiu/yolov7
+- https://github.com/WongKinYiu/yolov7/releases
  

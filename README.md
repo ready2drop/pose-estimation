@@ -48,7 +48,7 @@ Development of streamlit dashboard for Pose-Estimation
  pip install -r requirements.txt
  ```
 
- ### Download yolov7 pose estimation weights from [link](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-w6-pose.pt) and move them to the working directory {yolov7-pose-estimation}
+ ### Download yolov7 pose estimation weights from [link](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-w6-pose.pt) and move them to the working directory {yolov7-w6-pose,pt}
 
  ### Run the code with mentioned command below.
 
@@ -75,5 +75,8 @@ Development of streamlit dashboard for Pose-Estimation
  python pose-estimate.py --source 1
  ```
  
- - Output file will be created in the working directory with name ["your-file-name-without-extension"+"_keypoint.mp4"]
+### Output file will be created in the working directory with name ["your-file-name-without-extension"+"_keypoint.mp4"]
+
+# Reference
+- https://github.com/WongKinYiu/yolov7
  

@@ -1,4 +1,4 @@
-# yolov7_pose_estimation 
+# yolov7_pose_estimation   :two_men_holding_hands:
 
 
 
@@ -8,8 +8,6 @@
  - Code can run on Both (CPU & GPU)
  - Video/WebCam/External Camera/IP Stream Supported
 
-# Coming Soon
-Development of streamlit dashboard for Pose-Estimation
 
 # Steps to run Code
  

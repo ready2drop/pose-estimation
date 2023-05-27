@@ -1,15 +1,18 @@
 # yolov7_pose
-New Features
-Added Support for Comparision of (FPS & Time) Graph
-How to run Code in Google Colab
-Code can run on Both (CPU & GPU)
-Video/WebCam/External Camera/IP Stream Supported
-Coming Soon
+
+# New Features
+ - Added Support for Comparision of (FPS & Time) Graph
+ - How to run Code in Google Colab
+ - Code can run on Both (CPU & GPU)
+ - Video/WebCam/External Camera/IP Stream Supported
+
+# Coming Soon
 Development of streamlit dashboard for Pose-Estimation
-Steps to run Code
-If you are using google colab then you will first need to mount the drive with mentioned command first, (Windows or Linux users) both can skip this step.
-from google.colab import drive
-drive.mount("/content/drive")
+
+# Steps to run Code
+ - If you are using google colab then you will first need to mount the drive with mentioned command first, (Windows or Linux users) both can skip this step.
+'''from google.colab import drive
+drive.mount("/content/drive")'''
 Clone the repository.
 git clone https://github.com/RizwanMunawar/yolov7-pose-estimation.git
 Goto the cloned folder.

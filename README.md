@@ -81,7 +81,7 @@ Development of streamlit dashboard for Pose-Estimation
 
 # Result
 |Football|Dance|Snowboard|
-|------|---|---|
+|---|---|---|
 |![football](https://github.com/ready2drop/yolov7_pose/assets/89971553/6969ec65-2288-4c01-8799-3cb462169e06)|![dance](https://github.com/ready2drop/yolov7_pose/assets/89971553/bc3a8d65-112d-4223-8668-65e076e5acc6)|![snowboard](https://github.com/ready2drop/yolov7_pose/assets/89971553/d9fd1552-9ac2-4738-bff8-4373c9245a16) |
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|

@@ -19,7 +19,7 @@ Development of streamlit dashboard for Pose-Estimation
  drive.mount("/content/drive")
  ```
  ### Clone the repository.
- git clone https://github.com/RizwanMunawar/yolov7-pose-estimation.git
+ git clone https://github.com/ready2drop/yolov7_pose.git
 
  ### Go to the cloned folder.
  ```
@@ -80,7 +80,7 @@ Development of streamlit dashboard for Pose-Estimation
 *** Output file will be created in the working directory with name ["your-file-name-without-extension"+"_keypoint.mp4"] ***
 
 # Result
-|football|Dance|Snowboard|
+|Football|Dance|Snowboard|
 |------|---|---|
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
